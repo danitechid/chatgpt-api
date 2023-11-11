@@ -1,6 +1,6 @@
 {
   "name": "@danitech/chatgpt-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ChatGPT API - TypeScript/JavaScript. ChatGPT API ini ditenagai oleh: https://daniapi.biz.id",
   "main": "index.js",
   "type": "commonjs",

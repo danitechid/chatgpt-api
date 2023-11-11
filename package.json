@@ -1,0 +1,32 @@
+{
+  "name": "@danitech/chatgpt-api",
+  "version": "1.0.0",
+  "description": "ChatGPT API - TypeScript/JavaScript. ChatGPT API ini ditenagai oleh: https://daniapi.biz.id",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "latest"
+  },
+  "author": "Dani Ramdani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danitechid/chatgpt-api.git"
+  },
+  "keywords": [
+    "openai",
+    "openai-api",
+    "chatgpt",
+    "chatgpt-api",
+    "chatgpt-3",
+    "chatgpt-3.5",
+    "json-api"
+  ],
+  "bugs": {
+    "url": "https://github.com/danitechid/chatgpt-api/issues"
+  },
+  "homepage": "https://github.com/danitechid/chatgpt-api#readme"
+}

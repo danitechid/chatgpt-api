@@ -15,12 +15,12 @@ yarn add @danitech/chatgpt-api
 ## Cara Menggunakan
 ### Import Module @danitech/chatgpt-api
 #### CJS
-```
+```javascript
 const chatGPTAPI = require('@danitech/chatgpt-api');
 ```
 
 #### ESM
-```
+```javascript
 import chatGPTAPI from '@danitech/chatgpt-api';
 ```
 
@@ -50,7 +50,7 @@ const { chatGPT3, chatGPT35 } = chatGPTAPI;
 ```
 
 ### Hasil
-```bash
+```text
 ChatGPT-3: Hello! How can I assist you today?
 ChatGPT-3.5-Turbo: Hello! How can I assist you today?
 ```

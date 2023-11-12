@@ -26,10 +26,10 @@ import chatGPTAPI from '@danitech/chatgpt-api';
 
 ### Contoh Kode Lengkap
 ```javascript
-const chatGPTAPI = require('@danitech/chatgpt-api');
+const { models } = chatGPTAPI;
+const { chatGPT3, chatGPT35, chatGPT4 } = models;
 
-const { chatGPT3, chatGPT35 } = chatGPTAPI;
-
+// GPT-3 model
 (async () => {
   try {
     const response = await chatGPT3('Hello, AI.');
@@ -39,10 +39,21 @@ const { chatGPT3, chatGPT35 } = chatGPTAPI;
   }
 })();
 
+// GPT-3.5 model
 (async () => {
   try {
     const response = await chatGPT35('Hello, AI.');
-    console.log('ChatGPT-3.5-Turbo:', response);
+    console.log('ChatGPT-3.5:', response);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+})();
+
+// GPT-4 model
+(async () => {
+  try {
+    const response = await chatGPT4('Hello, AI.');
+    console.log('ChatGPT-4:', response);
   } catch (error) {
     console.error('Error:', error);
   }
@@ -52,7 +63,8 @@ const { chatGPT3, chatGPT35 } = chatGPTAPI;
 ### Hasil
 ```text
 ChatGPT-3: Hello! How can I assist you today?
-ChatGPT-3.5-Turbo: Hello! How can I assist you today?
+ChatGPT-3.5: Hello! How can I assist you today?
+ChatGPT-4: Hello! How can I assist you today?
 ```
 
 ## Informasi
